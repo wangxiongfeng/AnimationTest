@@ -1,0 +1,35 @@
+<LinearLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_activitya"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+
+    <Button
+        android:id="@+id/bt_gotoB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="进入界面B" />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="哈喽 ，我是界面A" />
+
+    <ImageView
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:src="@drawable/search" />
+
+    <Button
+      
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:text="Button" />
+
+</LinearLayout>
